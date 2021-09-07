@@ -3,7 +3,7 @@ import { base64encode, base64decode } from "nodejs-base64";
 
 async function requestPosts() {
 	const response = await fetch(
-		"https://your-web-site.com.br/wp-json/wp/v2/your-post-type?per_page=100",
+		"https://your-web-site.com.br/wp-json/wp/v2/procedimentos?per_page=100",
 		{
 			mode: "cors",
 			method: "GET",
